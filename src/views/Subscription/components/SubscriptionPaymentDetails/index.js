@@ -1,0 +1,2 @@
+import SubscriptionPaymentDetails from './subscriptionPaymentDetails'
+export default SubscriptionPaymentDetails

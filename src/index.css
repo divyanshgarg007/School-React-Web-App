@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"),
+   url("./fonts/proxima_ssv/ProximaNova-Regular.otf"),
+   url("./fonts/proxima_ssv/ProximaNova-Extrabold.otf"),
+   url("./fonts/proxima_ssv/ProximaNovaBold.otf"),
+   url("./fonts/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf"),
+   url("./fonts/proxima_ssv/Proxima\ Nova\ Black.otf")
+  }
+  @font-face {
+    font-family: "Arial Narrow";
+    src: local("Arial Narrow"),
+     url("./fonts/Arial-font/Arialn.ttf")
+    }
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .gmnoprint {
+  display: none
+} */
+.pac-container{
+  z-index: 111111!important;
+}
+
+.text-field .MuiTextField-root .MuiOutlinedInput-root fieldset{
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+}
+.text-field .MuiTextField-root .MuiOutlinedInput-root:hover fieldset{
+  border: 1px solid blue;
+  border-radius: 1px;
+}
+
+@media(max-width: 767px){
+  .text-field .MuiTextField-root .MuiOutlinedInput-root fieldset{
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .text-field .MuiTextField-root .MuiOutlinedInput-root input{
+    z-index: 111;
+  }
+  .text-field .MuiTextField-root .MuiOutlinedInput-root:hover fieldset{
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+}
